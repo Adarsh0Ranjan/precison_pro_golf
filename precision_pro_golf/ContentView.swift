@@ -11,7 +11,7 @@ struct ContentView: View {
     // progress view state properties
     @State private var downladAmoount = 0.0
     let timer = Timer.publish(every: 0.1  , on: .main, in: .common).autoconnect()
-
+    let swiftColor = UIColor(red: 1, green: 165/255, blue: 0, alpha: 1)
     @State private var isActive = false
     var body: some View {
         if isActive{
@@ -19,15 +19,19 @@ struct ContentView: View {
                 GeometryReader{ geo in
                     VStack{
                         TabView{
-                           OnboardingScreen1()
+                            OnboardingScreen1()
+                            OnboardingScreen2()
+                            OnboardingScreen3()
+                            OnboardingScreen4()
+                            OnboardingScreen5()
                         }
+                        .frame(width: geo.size.width, height: geo.size.height*0.68)
                         .tabViewStyle(.page(indexDisplayMode: .always))
                         .onAppear {
                               setupAppearance()
                         }
-                    
-                        Button{
-    //                        showingGolfView.toggle()
+                        NavigationLink{
+//                            tabView()
                         }label: {
                             Text("GET STARTED")
                                 .frame(width: geo.size.width*0.70, height: geo.size.height*0.05)
@@ -102,8 +106,10 @@ struct ContentView: View {
             }
         }
     }
+    
+    //INDEX PAGE COLOUR FOR TAB VIEW
     func setupAppearance() {
-        UIPageControl.appearance().currentPageIndicatorTintColor = .green
+        UIPageControl.appearance().currentPageIndicatorTintColor = UIColor(CustomColor.ColorNastyGreen).withAlphaComponent(1)
         UIPageControl.appearance().pageIndicatorTintColor = UIColor.black.withAlphaComponent(0.2)
     }
 }

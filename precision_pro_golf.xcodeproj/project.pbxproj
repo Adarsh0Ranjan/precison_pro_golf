@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		418BF40D28DFF48900735D2B /* OnboardingScreen3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418BF40C28DFF48900735D2B /* OnboardingScreen3.swift */; };
+		418BF40F28DFF6FB00735D2B /* OnboardingScreen4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418BF40E28DFF6FB00735D2B /* OnboardingScreen4.swift */; };
+		418BF41128DFF70D00735D2B /* OnboardingScreen5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418BF41028DFF70D00735D2B /* OnboardingScreen5.swift */; };
 		41B735D028DE9DF200C8E35B /* precision_pro_golfApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41B735CF28DE9DF200C8E35B /* precision_pro_golfApp.swift */; };
 		41B735D228DE9DF200C8E35B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41B735D128DE9DF200C8E35B /* ContentView.swift */; };
 		41B735D428DE9DF400C8E35B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41B735D328DE9DF400C8E35B /* Assets.xcassets */; };
@@ -24,9 +27,13 @@
 		41B735F628DEB55E00C8E35B /* ProximaNova-Extrabld.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 41B735F528DEB55D00C8E35B /* ProximaNova-Extrabld.ttf */; };
 		41B735F828DEB56500C8E35B /* ProximaNova-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 41B735F728DEB56500C8E35B /* ProximaNova-Light.ttf */; };
 		41B735FA28DECCDF00C8E35B /* OnboardingScreen1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41B735F928DECCDF00C8E35B /* OnboardingScreen1.swift */; };
+		41B735FE28DEDAE500C8E35B /* OnboardingScreen2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41B735FD28DEDAE500C8E35B /* OnboardingScreen2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		418BF40C28DFF48900735D2B /* OnboardingScreen3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingScreen3.swift; sourceTree = "<group>"; };
+		418BF40E28DFF6FB00735D2B /* OnboardingScreen4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingScreen4.swift; sourceTree = "<group>"; };
+		418BF41028DFF70D00735D2B /* OnboardingScreen5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingScreen5.swift; sourceTree = "<group>"; };
 		41B735CC28DE9DF200C8E35B /* precision_pro_golf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = precision_pro_golf.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		41B735CF28DE9DF200C8E35B /* precision_pro_golfApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = precision_pro_golfApp.swift; sourceTree = "<group>"; };
 		41B735D128DE9DF200C8E35B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -46,6 +53,7 @@
 		41B735F528DEB55D00C8E35B /* ProximaNova-Extrabld.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-Extrabld.ttf"; sourceTree = "<group>"; };
 		41B735F728DEB56500C8E35B /* ProximaNova-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-Light.ttf"; sourceTree = "<group>"; };
 		41B735F928DECCDF00C8E35B /* OnboardingScreen1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingScreen1.swift; sourceTree = "<group>"; };
+		41B735FD28DEDAE500C8E35B /* OnboardingScreen2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingScreen2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +90,10 @@
 				41B735CF28DE9DF200C8E35B /* precision_pro_golfApp.swift */,
 				41B735D128DE9DF200C8E35B /* ContentView.swift */,
 				41B735F928DECCDF00C8E35B /* OnboardingScreen1.swift */,
+				41B735FD28DEDAE500C8E35B /* OnboardingScreen2.swift */,
+				418BF40C28DFF48900735D2B /* OnboardingScreen3.swift */,
+				418BF40E28DFF6FB00735D2B /* OnboardingScreen4.swift */,
+				418BF41028DFF70D00735D2B /* OnboardingScreen5.swift */,
 				41B735DD28DE9E2800C8E35B /* SplashScreenView.swift */,
 				41B735DF28DE9EA600C8E35B /* splash.gif */,
 				41B735D328DE9DF400C8E35B /* Assets.xcassets */,
@@ -195,10 +207,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				418BF40D28DFF48900735D2B /* OnboardingScreen3.swift in Sources */,
 				41B735FA28DECCDF00C8E35B /* OnboardingScreen1.swift in Sources */,
 				41B735D228DE9DF200C8E35B /* ContentView.swift in Sources */,
+				41B735FE28DEDAE500C8E35B /* OnboardingScreen2.swift in Sources */,
+				418BF41128DFF70D00735D2B /* OnboardingScreen5.swift in Sources */,
 				41B735D028DE9DF200C8E35B /* precision_pro_golfApp.swift in Sources */,
 				41B735E428DE9F1F00C8E35B /* CustomFonts.swift in Sources */,
+				418BF40F28DFF6FB00735D2B /* OnboardingScreen4.swift in Sources */,
 				41B735E228DE9F0600C8E35B /* CustomColor.swift in Sources */,
 				41B735DE28DE9E2800C8E35B /* SplashScreenView.swift in Sources */,
 			);
