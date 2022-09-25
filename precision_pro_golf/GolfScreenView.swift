@@ -101,7 +101,7 @@ struct GolfScreenView: View {
                         .fill(.white)
                         .shadow(color: CustomColor.ShadowColor, radius: 10, x: 0, y: 0)
                         .frame(width: geo.size.width*0.8, height: geo.size.height*0.11, alignment: .center)
-                        .position(x: geo.size.width*0.5, y: geo.size.height*0.49)
+                        
                     HStack{
                         Image("s_1_graphic")
                             .resizable()
@@ -162,7 +162,10 @@ struct GolfScreenView: View {
                 .position(x: geo.size.width*0.50, y: geo.size.height*0.75)
                 
             }
+            
         }
+        .frame(width: UIScreen.main.bounds.size.width, height: UIScreen.main.bounds.size.height, alignment: .top)
+        
     }
 }
 

@@ -31,7 +31,7 @@ struct ContentView: View {
                               setupAppearance()
                         }
                         NavigationLink{
-//                            tabView()
+GolfScreenView()
                         }label: {
                             Text("GET STARTED")
                                 .frame(width: geo.size.width*0.70, height: geo.size.height*0.05)
