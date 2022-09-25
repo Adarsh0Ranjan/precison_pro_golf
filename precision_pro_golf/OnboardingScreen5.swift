@@ -14,8 +14,8 @@ struct OnboardingScreen5: View {
                 Image("onboarding_5")
                     .resizable()
                     .scaledToFit()
-                    .frame(width: geo.size.width * 0.8, height: geo.size.height * 0.45, alignment: .center)
-                    .position(x: geo.size.width*0.5, y: geo.size.height*0.3)
+                    .frame(width: geo.size.width * 0.65, height: geo.size.height * 0.45, alignment: .center)
+                    .position(x: geo.size.width*0.5, y: geo.size.height*0.2)
                 
                 Text("Connect a Device")
                     .multilineTextAlignment(.center)
