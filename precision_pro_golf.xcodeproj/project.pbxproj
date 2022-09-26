@@ -12,6 +12,10 @@
 		418BF41128DFF70D00735D2B /* OnboardingScreen5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418BF41028DFF70D00735D2B /* OnboardingScreen5.swift */; };
 		418BF41528E07D8900735D2B /* GolfScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418BF41428E07D8900735D2B /* GolfScreenView.swift */; };
 		418BF41728E07DAD00735D2B /* DeviceScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418BF41628E07DAD00735D2B /* DeviceScreenView.swift */; };
+		418BF41F28E0B38000735D2B /* ClubScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418BF41E28E0B38000735D2B /* ClubScreenView.swift */; };
+		418BF42128E0B39400735D2B /* RecordScrenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418BF42028E0B39400735D2B /* RecordScrenView.swift */; };
+		418BF42328E0B4C200735D2B /* StatsScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418BF42228E0B4C200735D2B /* StatsScreenView.swift */; };
+		41A4140028E12B0400CC4CC3 /* tabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A413FF28E12B0400CC4CC3 /* tabView.swift */; };
 		41B735D028DE9DF200C8E35B /* precision_pro_golfApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41B735CF28DE9DF200C8E35B /* precision_pro_golfApp.swift */; };
 		41B735D228DE9DF200C8E35B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41B735D128DE9DF200C8E35B /* ContentView.swift */; };
 		41B735D428DE9DF400C8E35B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41B735D328DE9DF400C8E35B /* Assets.xcassets */; };
@@ -38,6 +42,10 @@
 		418BF41028DFF70D00735D2B /* OnboardingScreen5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingScreen5.swift; sourceTree = "<group>"; };
 		418BF41428E07D8900735D2B /* GolfScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GolfScreenView.swift; sourceTree = "<group>"; };
 		418BF41628E07DAD00735D2B /* DeviceScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceScreenView.swift; sourceTree = "<group>"; };
+		418BF41E28E0B38000735D2B /* ClubScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClubScreenView.swift; sourceTree = "<group>"; };
+		418BF42028E0B39400735D2B /* RecordScrenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordScrenView.swift; sourceTree = "<group>"; };
+		418BF42228E0B4C200735D2B /* StatsScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsScreenView.swift; sourceTree = "<group>"; };
+		41A413FF28E12B0400CC4CC3 /* tabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tabView.swift; sourceTree = "<group>"; };
 		41B735CC28DE9DF200C8E35B /* precision_pro_golf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = precision_pro_golf.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		41B735CF28DE9DF200C8E35B /* precision_pro_golfApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = precision_pro_golfApp.swift; sourceTree = "<group>"; };
 		41B735D128DE9DF200C8E35B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -99,8 +107,12 @@
 				418BF40C28DFF48900735D2B /* OnboardingScreen3.swift */,
 				418BF40E28DFF6FB00735D2B /* OnboardingScreen4.swift */,
 				418BF41028DFF70D00735D2B /* OnboardingScreen5.swift */,
+				41A413FF28E12B0400CC4CC3 /* tabView.swift */,
 				418BF41428E07D8900735D2B /* GolfScreenView.swift */,
 				418BF41628E07DAD00735D2B /* DeviceScreenView.swift */,
+				418BF41E28E0B38000735D2B /* ClubScreenView.swift */,
+				418BF42028E0B39400735D2B /* RecordScrenView.swift */,
+				418BF42228E0B4C200735D2B /* StatsScreenView.swift */,
 				41B735DF28DE9EA600C8E35B /* splash.gif */,
 				41B735D328DE9DF400C8E35B /* Assets.xcassets */,
 				41B735E128DE9F0600C8E35B /* CustomColor.swift */,
@@ -216,12 +228,16 @@
 				418BF41528E07D8900735D2B /* GolfScreenView.swift in Sources */,
 				418BF40D28DFF48900735D2B /* OnboardingScreen3.swift in Sources */,
 				41B735FA28DECCDF00C8E35B /* OnboardingScreen1.swift in Sources */,
+				418BF42128E0B39400735D2B /* RecordScrenView.swift in Sources */,
 				41B735D228DE9DF200C8E35B /* ContentView.swift in Sources */,
 				418BF41728E07DAD00735D2B /* DeviceScreenView.swift in Sources */,
 				41B735FE28DEDAE500C8E35B /* OnboardingScreen2.swift in Sources */,
 				418BF41128DFF70D00735D2B /* OnboardingScreen5.swift in Sources */,
 				41B735D028DE9DF200C8E35B /* precision_pro_golfApp.swift in Sources */,
+				418BF42328E0B4C200735D2B /* StatsScreenView.swift in Sources */,
+				41A4140028E12B0400CC4CC3 /* tabView.swift in Sources */,
 				41B735E428DE9F1F00C8E35B /* CustomFonts.swift in Sources */,
+				418BF41F28E0B38000735D2B /* ClubScreenView.swift in Sources */,
 				418BF40F28DFF6FB00735D2B /* OnboardingScreen4.swift in Sources */,
 				41B735E228DE9F0600C8E35B /* CustomColor.swift in Sources */,
 				41B735DE28DE9E2800C8E35B /* SplashScreenView.swift in Sources */,
