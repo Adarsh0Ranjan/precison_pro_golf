@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "battery_percentage_indicator_green_bar.pdf",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

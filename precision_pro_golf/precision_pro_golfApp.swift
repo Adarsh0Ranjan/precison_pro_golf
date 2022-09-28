@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct precision_pro_golfApp: App {
+struct Precision_pro_golfApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
