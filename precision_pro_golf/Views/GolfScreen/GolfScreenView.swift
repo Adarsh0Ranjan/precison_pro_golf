@@ -79,7 +79,7 @@ private extension GolfScreenView {
             .fill(.white)
             .shadow(color: CustomColor.ShadowColor, radius: 10, x: 0, y: 0)
             .frame(width: UIScreen.main.bounds.width*0.8, height: UIScreen.main.bounds.height*0.11, alignment: .center)
-    }    
+}    
     var createButton: some View {
         Button {
             // more code to come

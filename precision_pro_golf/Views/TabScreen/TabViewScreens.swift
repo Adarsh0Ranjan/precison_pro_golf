@@ -28,7 +28,7 @@ struct TabViewScreens: View {
                }
            }
            .position(x: geo.size.width*0.5, y: geo.size.height*0.45)
-           HStack {
+           HStack(spacing: 0) {
                Spacer()
                TabBarView(selectedIndex: $selectedIndex)
                Spacer()
@@ -36,5 +36,6 @@ struct TabViewScreens: View {
            .frame(width: geo.size.width, height: 150, alignment: .center)
            .position(x: geo.size.width*0.5, y: geo.size.height*0.95)
             }
+       .ignoresSafeArea()
         }
     }

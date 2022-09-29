@@ -19,52 +19,50 @@ struct TabBarView: View {
                     selectedIndex = num
                 }label: {
                     ZStack {
-                        VStack {
-                            Image("golf_tab_background")
-                                .frame(width: 15, height: 50)
-                            Image("tab_bar_background")
+                        VStack(spacing:10) {
+                                Image("golf_tab_icon")
+                                    .resizable()
+                                    .scaledToFit()
+                                    .frame(width: 50, height: 50)
+                                Text("GOLF")
+                                    .frame(width: 50, height: 1)
+                                    .foregroundColor(selectedIndex != num ? CustomColor.tabViewColor : CustomColor.ColorNastyGreen)
+                                    .font(.custom(CustomFonts.proximaNovaSemiBold, size: 0.04))
+                                    .padding([.bottom],39)
+                            }
+                            if selectedIndex == num {
+                                Image("tab_highlight_indicator")
+                                    .frame(width: 30, height: 2)
+                                    .padding([.top],41)
+                            }
                         }
-                        VStack(spacing: 12) {
-                            Image("golf_tab_icon")
-                                .resizable()
-                                .scaledToFit()
-                                .frame(width: 50, height: 50)
-                            Text("GOLF")
-                                .frame(width: 50, height: 1)
-                                .foregroundColor(selectedIndex != num ? CustomColor.tabViewColor : CustomColor.ColorNastyGreen)
-                                .font(.custom(CustomFonts.proximaNovaSemiBold, size: 0.04))
-                        }
-                        .padding([.bottom],40)
-                        if selectedIndex == num {
-                            Image("tab_highlight_indicator")
-                                .frame(width: 30, height: 2)
-                                .padding([.top],41)
-                        }
-                    }
+                        .frame(width: UIScreen.main.bounds.width*0.256, height: 160)
+                            .background(Image("golf_tab_background"))
                 }
             } else {
                 Button {
                     selectedIndex = num
                 }label: {
                     ZStack {
-                        Image("tab_bar_background")
                         VStack {
                             Image(selectedIndex != num ? unSelectedImage[num] : selctedImage[num])
                                 .resizable()
                                 .scaledToFit()
                                 .frame(width: 30, height: 30)
-                            Text("STATS")
+                            Text(names[num])
                                 .frame(width: 50, height: 1)
                                 .foregroundColor(selectedIndex != num ? CustomColor.tabViewColor : CustomColor.ColorNastyGreen)
                                 .font(.custom(CustomFonts.proximaNovaSemiBold, size: 0.04))
+                                .padding([.bottom])
                         }
-                        .padding([.bottom])
                         if selectedIndex == num {
                             Image("tab_highlight_indicator")
-                                .frame(width: 30, height: 2)
+                                .frame(width: 32, height: 2)
                                 .padding([.top],41)
                         }
                     }
+                    .frame(width: UIScreen.main.bounds.width*0.186, height: 160)
+                        .background(Image("tab_bar_background"))
                 }
             }
         }
