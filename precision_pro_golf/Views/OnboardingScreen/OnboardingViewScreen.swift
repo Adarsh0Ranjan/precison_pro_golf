@@ -17,7 +17,7 @@ struct OnboardingViewScreen: View {
                 Image(imageText)
                     .resizable()
                     .scaledToFit()
-                    .frame(width: geo.size.width * 0.5, height: geo.size.height * 0.45, alignment: .center)
+                    .frame(width: geo.size.width * 0.5, height: geo.size.height * 0.42, alignment: .center)
                     .position(x: geo.size.width*0.5, y: geo.size.height*0.22)
                 Text(titleText)
                     .multilineTextAlignment(.center)
